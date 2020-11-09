@@ -1,0 +1,14 @@
+html {
+  font-family: Gilroy;
+  text-align: justify;
+  background-color: #dadada;
+}
+
+.titulo-politica {
+  font-size: 30px;
+  color: #00908c;
+}
+
+.subtitulo {
+  font-size: 25px;
+}

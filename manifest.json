@@ -1,0 +1,10 @@
+{
+  "name": "LinaInfratech",
+  "short_name": "Lina",
+  "description": "Weather forecast information",
+    "start_url": "/inicio.html",
+    "display": "standalone",
+  "background_color": "#DADADA",
+  "theme_color": "#00908C",
+  "orientation": "portrait-primary"
+}
