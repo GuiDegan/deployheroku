@@ -56,12 +56,12 @@ body {
   border-radius: 0px 0px 0px 40px;
   position: fixed;
   margin-left: -2vw;
-  min-width: 94.7vw;
+  min-width: 100vw;
   z-index: 2;
 }
 
 .navbar-nav {
-  padding-right: 3rem;
+  padding-right: 8rem;
 }
 
 .navbar .navbar-nav .nav-link {

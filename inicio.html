@@ -19,7 +19,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script type="text/javascript" src="javascript/javascript-home.js"></script>
-  <!--<script type="text/javascript" src="javascript/javascript-manutencao.js"></script> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   <link rel="apple-touch-icon" href="/example.png">
@@ -29,7 +28,7 @@
   <link href="css/styles-home.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css"
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script src="/javascript/jquery-cookies.js"></script>
   <script>
     window.addEventListener("load", function () {
       window.cookieconsent.initialise({
@@ -39,13 +38,13 @@
             "text": "#000000;"
           },
           "button": {
-            "background": "#006566;;"
+            "background": "#006566;"
           }
         },
         "content": {
           "message": "Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site.",
           "dismiss": "Compreendo!",
-          "href": "http://localhost:5501/politica.html"
+          "href": "http://localhost:5500/politica.html"
         }
       })
     });
@@ -311,7 +310,7 @@
       </section>
       <section class="container botoes-acessos">
         <button type="button" class="col-sm-4 btn-docs btn btn-primary"><a
-            href="http://localhost:5501/produtos.html#faca_parte">
+            href="https://linainfratech.herokuapp.com/produtos.html#faca_parte">
             faça parte!</a>
         </button>
         <button type="button" class="col-sm-4 btn-docs btn btn-primary"><a href="https://linapay.readme.io">
